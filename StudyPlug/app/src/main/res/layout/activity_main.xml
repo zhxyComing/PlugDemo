@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.app.dixon.studyplug.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#339999"
+        android:gravity="center"
+        android:onClick="start"
+        android:text="Start MySelf TestActivity"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="10dp"
+        android:background="#339999"
+        android:gravity="center"
+        android:onClick="startOtherApp"
+        android:text="Start Other App"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="10dp"
+        android:background="#339999"
+        android:gravity="center"
+        android:onClick="startSecondPlugApp"
+        android:text="StartSecondPlugApp"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>
